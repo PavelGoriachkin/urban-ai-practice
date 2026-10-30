@@ -1,0 +1,27 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {},
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\blocks.geojson": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812",
+      "examples\\data\\nevsky\\results\\travel_time_minutes.parquet": "071b119eee4b4cf224e354803306fb7a3713566465c231e46a4a32d41e1a763b"
+    }
+  },
+  "utc": "2026-10-30T17:33:32.167663+00:00",
+  "hashes": {
+    "area": "6f35eb6eda06ef1239a495d38bcdaf0440263860b69c04f21bee45c8e3f356d5"
+  }
+}

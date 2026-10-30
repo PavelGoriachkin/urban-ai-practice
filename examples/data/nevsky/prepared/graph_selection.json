@@ -1,0 +1,10 @@
+{
+  "external_edges": 43255,
+  "source_external_edges": 1157204,
+  "internal_edges": 131358,
+  "connections": 166462,
+  "junctions": 30210,
+  "buffer_m": 5000,
+  "source_bytes": 1795139620,
+  "subset_bytes": 103252620
+}

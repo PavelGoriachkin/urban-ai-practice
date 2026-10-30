@@ -1,0 +1,27 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {},
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\schools.geojson": "4445839f705efbe5d3d570742158f76f5c3ef4647e38145b2e637e6d03158de5"
+    }
+  },
+  "utc": "2026-10-30T15:55:34.470420+00:00",
+  "hashes": {
+    "schools": "6b1a47867ca7645e863474cb42a46f8360bfbc6eefcc9e29fd24a87bbdac6e1a",
+    "removed": "a4d6df1ab3073701f344d6147934bf705f77e8c77378747d4bc79f363bbda46c"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "mode": "passenger",
+      "epsg": 32636,
+      "buffer_m": 5000,
+      "conversion": "region-vectorized-1"
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\nevsky_buffer.net.xml": "47f105565f15cb14f79c931676fb15b864ae4b9a7f410a2d790f6c2d4d692893"
+    }
+  },
+  "utc": "2026-10-30T17:21:31.018239+00:00",
+  "hashes": {
+    "nodes": "a641cffc59982976b70129479f1489d8ac75c4f9b65d53b81af4bddf96a3d7a9",
+    "edges": "149cf6986b340797df4158529c49e72b97d04bb3debe47766099e2873c1bde6e",
+    "graphml": "ba5a43ed5f1745dc099100cc1b0ed66e83905bf2c6c83e25054c507a15e950e5"
+  }
+}

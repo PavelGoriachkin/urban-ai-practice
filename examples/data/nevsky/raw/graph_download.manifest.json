@@ -1,0 +1,21 @@
+{
+  "signature": {
+    "schema": "nevsky-raw-1",
+    "versions": {
+      "geopandas": "1.1.4",
+      "osmnx": "2.0.7",
+      "shapely": "2.1.2"
+    },
+    "params": {
+      "page": "https://www.mobilitysimlab.com/saint-petersburg-maps/",
+      "url": "https://mobilitysimlabcom.b-cdn.net/asia/11-saint%20petersburg/11-saint%20petersburg.net.xml.gz",
+      "manual": null
+    },
+    "inputs": {}
+  },
+  "utc": "2026-10-30T16:02:59.590670+00:00",
+  "hashes": {
+    "graph_file": "91fe1ace9196e16fdeab62944d208aec2b71a233332cfa20e584a343ca9f701d",
+    "source_info": "9479ace49f4569194cd9d5969fe549e150235d0d4aecc759530e4fd74d643a69"
+  }
+}

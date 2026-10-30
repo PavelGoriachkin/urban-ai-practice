@@ -1,0 +1,13 @@
+{
+  "blocks": 1461,
+  "population_estimate": 717649.0,
+  "building_count": 9382,
+  "school_count": 89,
+  "school_capacity_estimate": 22057.0,
+  "school_threshold_car_minutes": 15,
+  "school_demand_per_1000": 120,
+  "provision_strong_total": 0.2530313402875277,
+  "provision_weak_total": 0.2530313402875277,
+  "unassigned_buildings": 4,
+  "unassigned_schools": 0
+}

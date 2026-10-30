@@ -1,0 +1,86 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "epsg": 32636,
+      "tags": {
+        "roads": {
+          "highway": [
+            "construction",
+            "crossing",
+            "living_street",
+            "motorway",
+            "motorway_link",
+            "motorway_junction",
+            "pedestrian",
+            "primary",
+            "primary_link",
+            "raceway",
+            "residential",
+            "road",
+            "secondary",
+            "secondary_link",
+            "services",
+            "tertiary",
+            "tertiary_link",
+            "track",
+            "trunk",
+            "trunk_link",
+            "turning_circle",
+            "turning_loop",
+            "unclassified"
+          ],
+          "service": [
+            "living_street",
+            "emergency_access"
+          ]
+        },
+        "railways": {
+          "railway": "rail"
+        },
+        "water": {
+          "riverbank": true,
+          "reservoir": true,
+          "basin": true,
+          "dock": true,
+          "canal": true,
+          "pond": true,
+          "natural": [
+            "water",
+            "bay"
+          ],
+          "waterway": [
+            "river",
+            "canal",
+            "ditch"
+          ],
+          "landuse": "basin",
+          "water": "lake"
+        }
+      }
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92",
+      "examples\\data\\nevsky\\raw\\roads.geojson": "bef0ccdacdb0fe9f22987d5198893da0bc2d9ca63547ee4ad1a6f78c99e70c09",
+      "examples\\data\\nevsky\\raw\\railways.geojson": "0702f01fb45d1f0c8fcaa84e416268f34741e38f3471fc55148ae15518e65f71",
+      "examples\\data\\nevsky\\raw\\water.geojson": "40f3aa688beab158c2e102d48e3296680ada45487cd9cbeefa570e1f5971b8b4"
+    }
+  },
+  "utc": "2026-10-30T15:08:40.455266+00:00",
+  "hashes": {
+    "blocks": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812"
+  }
+}

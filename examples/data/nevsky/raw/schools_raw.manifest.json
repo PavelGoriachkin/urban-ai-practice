@@ -1,0 +1,22 @@
+{
+  "signature": {
+    "schema": "nevsky-raw-1",
+    "versions": {
+      "geopandas": "1.1.4",
+      "osmnx": "2.0.7",
+      "shapely": "2.1.2"
+    },
+    "params": {
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92"
+    }
+  },
+  "utc": "2026-10-30T15:55:33.312201+00:00",
+  "hashes": {
+    "schools": "4445839f705efbe5d3d570742158f76f5c3ef4647e38145b2e637e6d03158de5"
+  }
+}

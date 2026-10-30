@@ -1,0 +1,38 @@
+{
+  "signature": {
+    "schema": "nevsky-raw-1",
+    "versions": {
+      "geopandas": "1.1.4",
+      "osmnx": "2.0.7",
+      "shapely": "2.1.2"
+    },
+    "params": {
+      "tags": {
+        "riverbank": true,
+        "reservoir": true,
+        "basin": true,
+        "dock": true,
+        "canal": true,
+        "pond": true,
+        "natural": [
+          "water",
+          "bay"
+        ],
+        "waterway": [
+          "river",
+          "canal",
+          "ditch"
+        ],
+        "landuse": "basin",
+        "water": "lake"
+      }
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92"
+    }
+  },
+  "utc": "2026-10-30T14:41:53.661902+00:00",
+  "hashes": {
+    "water": "40f3aa688beab158c2e102d48e3296680ada45487cd9cbeefa570e1f5971b8b4"
+  }
+}

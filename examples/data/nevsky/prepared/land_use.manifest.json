@@ -1,0 +1,44 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "commercial": "business",
+      "industrial": "industrial",
+      "cemetery": "special",
+      "garages": "industrial",
+      "residential": "residential",
+      "retail": "business",
+      "grass": "recreation",
+      "farmland": "agriculture",
+      "construction": "special",
+      "brownfield": "industrial",
+      "forest": "recreation",
+      "recreation_ground": "recreation",
+      "religious": "special",
+      "flowerbed": "recreation",
+      "military": "special",
+      "landfill": "transport"
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\blocks.geojson": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812",
+      "examples\\data\\nevsky\\raw\\functional_zones.geojson": "b552f5a369c00264d05c189b5faab780f8210a8ec9866d66ccb1ad1732c3f422"
+    }
+  },
+  "utc": "2026-10-30T15:16:32.296351+00:00",
+  "hashes": {
+    "land": "6446869404971b91e0ae0482a62af0d264ae5533551cedf6b97614a8bdf43cc4"
+  }
+}

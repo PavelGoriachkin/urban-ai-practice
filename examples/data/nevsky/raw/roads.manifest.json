@@ -1,0 +1,50 @@
+{
+  "signature": {
+    "schema": "nevsky-raw-1",
+    "versions": {
+      "geopandas": "1.1.4",
+      "osmnx": "2.0.7",
+      "shapely": "2.1.2"
+    },
+    "params": {
+      "tags": {
+        "highway": [
+          "construction",
+          "crossing",
+          "living_street",
+          "motorway",
+          "motorway_link",
+          "motorway_junction",
+          "pedestrian",
+          "primary",
+          "primary_link",
+          "raceway",
+          "residential",
+          "road",
+          "secondary",
+          "secondary_link",
+          "services",
+          "tertiary",
+          "tertiary_link",
+          "track",
+          "trunk",
+          "trunk_link",
+          "turning_circle",
+          "turning_loop",
+          "unclassified"
+        ],
+        "service": [
+          "living_street",
+          "emergency_access"
+        ]
+      }
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92"
+    }
+  },
+  "utc": "2026-10-30T14:33:18.556291+00:00",
+  "hashes": {
+    "roads": "bef0ccdacdb0fe9f22987d5198893da0bc2d9ca63547ee4ad1a6f78c99e70c09"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {},
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\blocks.geojson": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812",
+      "examples\\data\\nevsky\\prepared\\buildings.geojson": "33d65eac29e61dc671e0eb2e7048b2c506a376a0104219677f88d4d95c19c291",
+      "examples\\data\\nevsky\\prepared\\schools.geojson": "6b1a47867ca7645e863474cb42a46f8360bfbc6eefcc9e29fd24a87bbdac6e1a"
+    }
+  },
+  "utc": "2026-10-30T15:55:57.807505+00:00",
+  "hashes": {
+    "bb": "d0516d6d6b4303542f8ce8a1fd58b063d26d4b31ac555ab4ecc5bcb8e47a222b",
+    "sb": "99bb5e5b3154295d75f983e9fa8f6843232956e129e2a400d063c775cd36bc36",
+    "be": "f4e70c4d929ace46cedb75f9ee0d4ff78eec947d019de6c7d54ed51a68d464ed",
+    "se": "4f82cad38ef7b25f2a980b48831eaa48495adc06ff364a4619cbdfc9966a93b1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "max_snap_m": 1500.0,
+      "weight": "time_min",
+      "approach_time": false
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\blocks.geojson": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812",
+      "examples\\data\\nevsky\\prepared\\graph_nodes.geojson": "a641cffc59982976b70129479f1489d8ac75c4f9b65d53b81af4bddf96a3d7a9",
+      "examples\\data\\nevsky\\prepared\\drive.graphml": "ba5a43ed5f1745dc099100cc1b0ed66e83905bf2c6c83e25054c507a15e950e5"
+    }
+  },
+  "utc": "2026-10-30T17:31:36.247757+00:00",
+  "hashes": {
+    "matrix": "071b119eee4b4cf224e354803306fb7a3713566465c231e46a4a32d41e1a763b",
+    "snap": "85c07ab8914513f8b8770338d4bb99448290b72d173bd17d8a9093954a99bf08"
+  }
+}

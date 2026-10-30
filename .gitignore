@@ -34,6 +34,7 @@ instance/
 # Environments
 .env
 .venv/
+.python/
 venv/
 ENV/
 
@@ -42,3 +43,27 @@ ENV/
 
 # PyCharm env
 .idea
+
+# Local credentials and private keys
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated caches and temporary files
+osmnx_cache/
+docs/build/
+/tmp*/
+*.tmp
+*.temp
+~$*
+
+# Large research datasets (kept locally; share separately)
+/examples/data/nevsky/prepared/drive.graphml
+/examples/data/nevsky/prepared/graph_edges.geojson
+/examples/data/nevsky/prepared/graph_nodes.geojson
+/examples/data/nevsky/prepared/nevsky_buffer.net.xml
+/examples/data/nevsky/raw/buildings.geojson
+/examples/data/nevsky/raw/saint_petersburg.net.xml

@@ -1,0 +1,32 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "buffer_m": 5000,
+      "selector": "stream-sumo-1"
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\saint_petersburg.net.xml": "91fe1ace9196e16fdeab62944d208aec2b71a233332cfa20e584a343ca9f701d",
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92"
+    }
+  },
+  "utc": "2026-10-30T17:11:03.038623+00:00",
+  "hashes": {
+    "network": "47f105565f15cb14f79c931676fb15b864ae4b9a7f410a2d790f6c2d4d692893",
+    "context": "7ca79b5d9d28eddf51d42a832642c2285d08606219b9cc4ce2b051efe5fcb7d3",
+    "selection": "2991b1b98f6ffacdfe61c4317e78d0cec089af0115711a05c36f5d47f6c42db2"
+  }
+}

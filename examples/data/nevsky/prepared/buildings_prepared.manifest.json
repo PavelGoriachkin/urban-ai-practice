@@ -1,0 +1,30 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "floors": 1,
+      "living_coefficient": 0.9,
+      "m2_per_person": 30.0
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\buildings.geojson": "582b13b0e06d6986f06dbf9b18c9dc8629400ed3d81bd5b1dd567b5380d59ceb"
+    }
+  },
+  "utc": "2026-10-30T15:21:41.773563+00:00",
+  "hashes": {
+    "buildings": "33d65eac29e61dc671e0eb2e7048b2c506a376a0104219677f88d4d95c19c291"
+  }
+}

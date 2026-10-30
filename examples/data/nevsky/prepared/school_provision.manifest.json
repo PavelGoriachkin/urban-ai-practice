@@ -1,0 +1,35 @@
+{
+  "signature": {
+    "schema": "nevsky-2",
+    "versions": {
+      "blocksnet": "1.0.0a9",
+      "geopandas": "1.1.4",
+      "shapely": "2.1.2",
+      "osmnx": "2.0.7",
+      "pandas": "2.3.3",
+      "numpy": "2.2.6",
+      "networkx": "3.4.2",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "sumolib": "1.28.0",
+      "pulp": "2.7.0"
+    },
+    "params": {
+      "demand_per_1000": 120,
+      "car_threshold_min": 15,
+      "self_supply": true,
+      "max_depth": 1
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\prepared\\blocks.geojson": "942d23cccbaa559628a80812247ddded21ca3d61dc9f937f3ebf14d6b171e812",
+      "examples\\data\\nevsky\\prepared\\blocks_buildings.geojson": "d0516d6d6b4303542f8ce8a1fd58b063d26d4b31ac555ab4ecc5bcb8e47a222b",
+      "examples\\data\\nevsky\\prepared\\blocks_schools.geojson": "99bb5e5b3154295d75f983e9fa8f6843232956e129e2a400d063c775cd36bc36",
+      "examples\\data\\nevsky\\results\\travel_time_minutes.parquet": "071b119eee4b4cf224e354803306fb7a3713566465c231e46a4a32d41e1a763b"
+    }
+  },
+  "utc": "2026-10-30T17:31:56.324412+00:00",
+  "hashes": {
+    "provision": "427de0d6a2a7335cc828c6bcd0e133a6cd73ea41c52c7af5637ee79279beb290",
+    "links": "00705226c776899e6fbf6d3f16709354a0b7f3d92f7592f65b4482b8250d41de"
+  }
+}

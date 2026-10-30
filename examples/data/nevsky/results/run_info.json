@@ -1,0 +1,74 @@
+{
+  "utc": "2026-10-30T17:48:29.839379+00:00",
+  "place": "Невский район, Санкт-Петербург, Россия",
+  "versions": {
+    "blocksnet": "1.0.0a9",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "osmnx": "2.0.7",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "networkx": "3.4.2",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "sumolib": "1.28.0",
+    "pulp": "2.7.0"
+  },
+  "local_epsg": 32636,
+  "cache_schema": "nevsky-2",
+  "parameters": {
+    "floors": 1,
+    "living_coefficient": 0.9,
+    "m2_per_person": 30.0,
+    "spacematrix_k": 11,
+    "seed": 42,
+    "max_snap_m": 1500.0,
+    "school_demand": 120,
+    "car_threshold_min": 15
+  },
+  "graph": {
+    "page": "https://www.mobilitysimlab.com/saint-petersburg-maps/",
+    "download": "https://mobilitysimlabcom.b-cdn.net/asia/11-saint%20petersburg/11-saint%20petersburg.net.xml.gz",
+    "mode": "passenger car",
+    "downloaded_utc": "2026-10-30T16:02:41.581654+00:00",
+    "sha256": "91fe1ace9196e16fdeab62944d208aec2b71a233332cfa20e584a343ca9f701d",
+    "network_date": "не указана на странице источника"
+  },
+  "graph_selection": {
+    "external_edges": 43255,
+    "source_external_edges": 1157204,
+    "internal_edges": 131358,
+    "connections": 166462,
+    "junctions": 30210,
+    "buffer_m": 5000,
+    "source_bytes": 1795139620,
+    "subset_bytes": 103252620
+  },
+  "sources": {
+    "osm": "https://www.openstreetmap.org/copyright",
+    "pipeline": "https://github.com/aimclub/blocksnet/blob/main/examples/pipeline.ipynb"
+  },
+  "result_hashes": {
+    "blocks_accessibility.geojson": "6f35eb6eda06ef1239a495d38bcdaf0440263860b69c04f21bee45c8e3f356d5",
+    "blocks_density.geojson": "eb9b5c7f56a6a40e225e41421f19366c3179e84817ce50bd6533b603a4bde1c1",
+    "blocks_school_provision.geojson": "427de0d6a2a7335cc828c6bcd0e133a6cd73ea41c52c7af5637ee79279beb290",
+    "blocks_school_provision_checked.geojson": "e733aedd4529c23dbecd795dda9405443ae208c89797709f1fc8e700f041c937",
+    "blocks_spacematrix.geojson": "8573721f3108cff90a2afda155b99321ade23c8c02c415be5fa0140c374532e1",
+    "blocks_strelka.geojson": "b0c316f770c77e37fce13f9a2d490dada9a97d517e0349917ca5ee34733053f5",
+    "findings_draft.txt": "2d5879eb1bd97cd35525756b7154d715ffa3d1177df0cf3f86a1eaee3f7497aa",
+    "indicators_summary.csv": "2ec66f4adbb770765e91371bab48e7c9ab83a6b8899eede02eeea2c079914063",
+    "nevsky_blocks_results.csv": "d30292ad48abd18fd4b4b68012e7f7b3ed31b14838a0806d8bc610fb18e2a014",
+    "nevsky_blocks_results.geojson": "bfa2263af40908f473b1e36b995c98edd4deebe6938ce5c89e32d223aae70ad4",
+    "quality_checks.csv": "9e8be3511fede5bb9e3e561726e693d04d2622f4ac5ccfe9dd80f09c4734ef32",
+    "research_charts.png": "bafe9e755e77250ed200113fce573eb99af2620d77ca84dc25c5d41807749b47",
+    "school_links.csv": "a3742c2edfdda97d78556ca1c24d5f7972a7cba7865ebc6369386b5958abc068",
+    "school_links.geojson": "c39f7134d741b38f2190a7314c9d896f596c549d66dab15603e5fcd321150f28",
+    "school_links.parquet": "00705226c776899e6fbf6d3f16709354a0b7f3d92f7592f65b4482b8250d41de",
+    "spacematrix_clusters.csv": "479688190ae9265ae9bee6e6f54446b7f0f0b27625386668fc2e92ce23128900",
+    "spacematrix_clusters.parquet": "c993b33cd20a29423bec72aa1aba4d0ce002629fd95dfcd7b03243ca9c2394b1",
+    "summary.json": "5e58ee12a8285b77f030540c34d5d61345d7d655b1d46b7fb7daef4c7d4b0b20",
+    "top_school_demand_left.csv": "a3254544dd821855c63c50e24b60160329e3dc52f766d5ccd87648a0ca0dc37a",
+    "travel_time_minutes.csv": "4805e937832f2d22e6b9d1c00dae9e813e4ab5f0bcf9630a6e89a90a67cbe5d0",
+    "travel_time_minutes.parquet": "071b119eee4b4cf224e354803306fb7a3713566465c231e46a4a32d41e1a763b"
+  }
+}

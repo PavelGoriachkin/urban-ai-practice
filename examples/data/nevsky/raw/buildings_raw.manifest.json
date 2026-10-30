@@ -1,0 +1,22 @@
+{
+  "signature": {
+    "schema": "nevsky-raw-1",
+    "versions": {
+      "geopandas": "1.1.4",
+      "osmnx": "2.0.7",
+      "shapely": "2.1.2"
+    },
+    "params": {
+      "tags": {
+        "building": true
+      }
+    },
+    "inputs": {
+      "examples\\data\\nevsky\\raw\\boundary.geojson": "a792bd84bf7af97ab41f6bf08280cae579992ae4b74c4a8010c766aadd229b92"
+    }
+  },
+  "utc": "2026-10-30T15:21:33.322373+00:00",
+  "hashes": {
+    "buildings": "582b13b0e06d6986f06dbf9b18c9dc8629400ed3d81bd5b1dd567b5380d59ceb"
+  }
+}
